@@ -1,0 +1,85 @@
+{
+  "absolute_tolerance": 1e-12,
+  "runs": {
+    "1": {
+      "seed": 2026,
+      "rng": "PCG64",
+      "noisy_replicates": 100,
+      "python": "3.12.15",
+      "platform": "Linux-6.18.58.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+      "packages": {
+        "numpy": "2.2.6",
+        "scipy": "1.15.3",
+        "matplotlib": "3.10.3"
+      },
+      "git_revision": "11ed94e48e6c839e830ac632321230c2a438e076",
+      "source_sha256": {
+        "spectral_benchmark/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "spectral_benchmark/__main__.py": "5abc1148c0ee084d49c374912a682ac5a362ac5960bf4203cd3f757d8f38a706",
+        "spectral_benchmark/figure.py": "962a3884f2dfedf9c1a6d42278c5f51a1ecc1a6990e48aa10a4a39d377682dd5",
+        "spectral_benchmark/model.py": "25bd5f00f13d72704fd35345764b2c2d636e309134a15b2b091a4ecf7304069e",
+        "PROTOCOL.md": "a6916317367bff54b5d7e6d004378397869d51a3c330ff7c3e611380419e1c74",
+        "uv.lock": "25a67cdae6f8d295402e693fbe018b356c35d5a600211f57be22c82469277637"
+      },
+      "mixtures": 7525,
+      "fits": 15050,
+      "failures": 0,
+      "elapsed_seconds": 3.8845872239980963
+    },
+    "2": {
+      "seed": 2026,
+      "rng": "PCG64",
+      "noisy_replicates": 100,
+      "python": "3.12.15",
+      "platform": "Linux-6.18.58.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+      "packages": {
+        "numpy": "2.2.6",
+        "scipy": "1.15.3",
+        "matplotlib": "3.10.3"
+      },
+      "git_revision": "11ed94e48e6c839e830ac632321230c2a438e076",
+      "source_sha256": {
+        "spectral_benchmark/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "spectral_benchmark/__main__.py": "5abc1148c0ee084d49c374912a682ac5a362ac5960bf4203cd3f757d8f38a706",
+        "spectral_benchmark/figure.py": "962a3884f2dfedf9c1a6d42278c5f51a1ecc1a6990e48aa10a4a39d377682dd5",
+        "spectral_benchmark/model.py": "25bd5f00f13d72704fd35345764b2c2d636e309134a15b2b091a4ecf7304069e",
+        "PROTOCOL.md": "a6916317367bff54b5d7e6d004378397869d51a3c330ff7c3e611380419e1c74",
+        "uv.lock": "25a67cdae6f8d295402e693fbe018b356c35d5a600211f57be22c82469277637"
+      },
+      "mixtures": 7525,
+      "fits": 15050,
+      "failures": 0,
+      "elapsed_seconds": 4.1588317599962465
+    }
+  },
+  "tables": {
+    "observations.csv": {
+      "rows_per_run": 15050,
+      "byte_identical": true,
+      "sha256": "97662c34ad9b7d182c92cddf071cefd9a437558f3bc559c17a37bf83ea9b1d97"
+    },
+    "summary.csv": {
+      "rows_per_run": 300,
+      "byte_identical": true,
+      "sha256": "62ed2d5160c5553100bf24ed6dce822c100b677d2714e9666f91aeb90fd2058e"
+    }
+  },
+  "solver_validation": {
+    "BVLS": {
+      "fits": 7525,
+      "failed_fits": 0,
+      "maximum_reference_error": 7.771561172376096e-16,
+      "maximum_noiseless_error": 4.440892098500626e-16,
+      "minimum_estimate": -0.0,
+      "maximum_estimate": 1.0
+    },
+    "SLSQP": {
+      "fits": 7525,
+      "failed_fits": 0,
+      "maximum_reference_error": 2.9096725029376103e-12,
+      "maximum_noiseless_error": 1.4814816040598089e-12,
+      "minimum_estimate": 0.0,
+      "maximum_estimate": 1.0
+    }
+  }
+}
