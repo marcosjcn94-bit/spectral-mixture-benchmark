@@ -1,0 +1,9 @@
+[project]
+name = "spectral-mixture-benchmark"
+version = "1.0.0"
+description = "Reproducible evaluation of two-component spectral mixture estimates"
+requires-python = ">=3.12,<3.13"
+dependencies = ["numpy==2.2.6", "scipy==1.15.3", "matplotlib==3.10.3"]
+
+[dependency-groups]
+dev = ["pytest==8.3.5"]
